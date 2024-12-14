@@ -101,22 +101,29 @@ form {
     margin-top: 55px;
 }
 
+
+
+form label {
+    width: 60%;
+
+}
+
 form input {
-    width: 80%;
+    width: 100%;
     display: block;
+    padding: 10px;
     border-radius: 5px;
     border: 1px solid #0008;
-    padding: 10px 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-
 form select {
-    width: 80%;
-    height: 30px;
+    width: 100%;
     display: block;
     border-radius: 5px;
+    padding: 10px;
 }
+
 form button {
     display: flex;
     align-items: center;
@@ -130,11 +137,13 @@ form button {
     cursor: pointer;
     box-shadow: rgb(38, 57, 77) 6px 12px 40px -10px;
     font-weight: 600;
+    margin-top: 40px;
 }
 form button:hover {
     background: linear-gradient(90deg, rgb(210, 209, 188) 30%, rgb(199, 171, 210) 70% ) ;
     border: 1px solid #0005;
     color: #000;
+    
 }
 
 .delete-book {
