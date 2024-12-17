@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Qatora";
+    src: url("./fonts/Qatora.woff2") format("woff2");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Outfit" ;
+    src: url("./fonts/Outfit-VariableFont.woff2") format("woff2");
+    font-style: normal;
+}

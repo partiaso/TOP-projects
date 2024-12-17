@@ -1,0 +1,38 @@
+
+
+.contact-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: start;
+    color: white;
+    background-color: var(--nav-bg);
+    padding: 70px 140px;
+    border-radius: 1rem;
+    gap: 46px;
+}
+
+
+.top-container h2 {
+    font-size: 5rem;
+    font-family: "Qatora";
+    font-weight: 500;
+    
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+
+.bottom-container div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--order-btn);
+}
+
+.bottom-container p {
+    color: #ccc;
+}
